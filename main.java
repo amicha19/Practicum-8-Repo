@@ -1,7 +1,7 @@
 // Practicum 8 (Strings in Java)
 // (TO UPDATE)
 
-class Main {
+class practicumnum8 {
   public static void main(String[] args) {
     System.out.println("PRACTICUM on Strings in Java");
 
@@ -17,10 +17,10 @@ class Main {
     str4 = new StringBuffer("Hello");
 
     // string comparison
-    match = (str1 == str2); 
+    match = str1.equals(str2); 
 
     // string modification
-    str3.replace('H','J');   
+    str3 = str3.replace('h','j');   
     str4.replace(0,1,"J"); 
 
     // display results
